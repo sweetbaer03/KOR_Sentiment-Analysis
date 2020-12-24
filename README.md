@@ -21,3 +21,16 @@
 *   KNU 감성사전
 
     (https://github.com/park1200656/KnuSentiLex)
+
+
+## 4. 각 모델별 전처리 방식
+
+실험 모델|전처리|모델|
+|------|---|---|
+|LSTM|KoNLPy PyKomoran|LSTM|
+|bi-LSTM|KoNLPy PyKomoran|bi-LSTM|
+|KoBERT|BERT_Tokenizer(get_tokenizer) |KoBERT의 get_pytorch_kobert_model|
+|KoELECTRA|koelectra-base-v3-discriminator|koelectra-base-v3-discriminator|
+
+## 5. 참고자료
+
