@@ -34,3 +34,8 @@
 
 ## 5. 참고자료
 
+KoBERT : 
+https://github.com/SKTBrain/KoBERT#using-with-pytorch
+
+KoELECTRA :
+https://github.com/monologg/KoELECTRA
